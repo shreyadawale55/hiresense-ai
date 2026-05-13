@@ -7,3 +7,15 @@ python-dotenv
 pydantic
 celery
 redis
+prometheus-fastapi-instrumentator
+python-multipart
+passlib[bcrypt]
+python-jose
+email-validator
+websockets
+faiss-cpu
+numpy
+scikit-learn
+sentence-transformers
+torch
+transformers
