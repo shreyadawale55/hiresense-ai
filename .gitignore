@@ -1,0 +1,83 @@
+# ── Python ─────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.prof
+
+# ── Virtual environments ────────────────────
+.venv/
+venv/
+env/
+.tooling/
+.env
+!.env.example
+
+# ── Node / Frontend ─────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ── Docker ──────────────────────────────────
+.docker/
+
+# ── Data & Models ────────────────────────────
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+ollama/
+.ollama/
+*.pt
+*.pkl
+*.pth
+*.onnx
+*.csv
+*.parquet
+*.jsonl
+*.docx
+*.pdf
+
+# ── Uploads ──────────────────────────────────
+uploads/
+backend/uploads/
+workers/uploads/
+
+# ── Logs ─────────────────────────────────────
+*.log
+logs/
+
+# ── IDE ───────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── SSL certs ─────────────────────────────────
+nginx/ssl/
+*.pem
+*.key
+*.crt
+
+# ── Secrets ───────────────────────────────────
+.env.production
+.env.local
+*.secret
+
+# ── Kaggle ────────────────────────────────────
+.kaggle/
