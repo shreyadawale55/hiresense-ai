@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+structlog
+sqlalchemy
+psycopg2-binary
+python-dotenv
+pydantic
+celery
+redis
